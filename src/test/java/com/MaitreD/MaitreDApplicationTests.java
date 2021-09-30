@@ -1,10 +1,10 @@
-package com.shippingSystem;
+package com.MaitreD;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ShippingSystemApplicationTests {
+class MaitreDApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package com.shippingSystem;
+package com.MaitreD;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.stereotype.*;
 
 @Controller
 @SpringBootApplication
-public class ShippingSystemApplication {
+public class MaitreDApplication {
 
 	@RequestMapping("/")
 	@ResponseBody
@@ -16,6 +16,6 @@ public class ShippingSystemApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(ShippingSystemApplication.class, args);
+		SpringApplication.run(MaitreDApplication.class, args);
 	}
 }
